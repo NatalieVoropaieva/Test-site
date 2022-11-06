@@ -898,7 +898,7 @@ section {
     }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 580px) {
     .hyundai-container {
         top: 415px;
     }
@@ -921,6 +921,9 @@ section {
         left: 0;
         top: -8px;
         width: 353px;
+    }
+    .promo-code{
+        margin-bottom: 10px;
     }
 }
 
