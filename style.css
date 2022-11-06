@@ -1,0 +1,1227 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    object-fit: contain;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Avenir Next Cyr', sans-serif;
+    font-weight: 400;
+    line-height: 120%;
+    color: #2D3945;
+}
+
+.medium-text {
+    font-family: 'Avenir Next Cyr Medium', sans-serif;
+    font-weight: 750;
+}
+
+.heavy-text {
+    font-family: 'Avenir Next Cyr Heavy', sans-serif;
+    font-weight: 800;
+    margin: 0;
+}
+
+.header-section {
+    margin: 0;
+    position: relative;
+    height: 1057px;
+}
+
+.header-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: calc(1057px - 909px);
+    background-image: url("./images/Rectangle 1145.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+}
+
+.header-text {
+    margin: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-text .connect {
+    max-height: 57px;
+    transform: rotate(-1.84deg);
+    font-size: 37.8303px;
+    line-height: 57px;
+    position: absolute;
+    top: 59px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.header-text .currency {
+    font-size: 25.22px;
+}
+
+.logo-container {
+    position: absolute;
+    top: 123.29px;
+    transform: rotate(-2.59deg);
+}
+
+.logo {
+    display: block;
+    position: relative;
+    max-width: 280px;
+}
+
+.logo .logo-img {
+    width: 100%;
+}
+
+.arrow {
+    position: absolute;
+    top: 21.22px;
+    transform: rotate(13deg);
+    right: -57.41px;
+    width: initial;
+}
+
+.header-text .get {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 111px;
+    font-size: 54.2902px;
+    line-height: 120%;
+    transform: rotate(-1.54deg);
+    top: 182.45px;
+    margin-right: 45px;
+}
+
+.rectangle {
+    top: 0;
+    left: 0;
+    height: 57px;
+    display: block;
+    position: absolute;
+    background-color: #E32819;
+    z-index: -1;
+}
+
+.iphone-container {
+    position: absolute;
+    top: 284.4px;
+}
+
+.hyundai-container {
+    position: absolute;
+    top: 370px;
+}
+
+.iphone, .hyundai {
+    position: relative;
+    font-size: 42.6664px;
+    line-height: 120%;
+    z-index: 10;
+}
+
+.iphone .text {
+    transform: rotate(-2.28deg);
+}
+
+.hyundai .text {
+    transform: rotate(0.72deg);
+}
+
+.iphone .text, .hyundai .text {
+    display: block;
+    z-index: 2;
+}
+
+.iphone .rectangle {
+    width: 357px;
+    transform: rotate(-2.66deg);
+    left: -12px;
+    top: 6px;
+}
+
+.hyundai .rectangle {
+    width: 281px;
+    transform: rotate(0.72deg);
+    left: -5px;
+    top: -5px;
+}
+
+.header-car-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-button {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 400;
+    border-radius: 50px;
+    width: 228px;
+    height: 40px;
+    position: absolute;
+    top: 327px;
+    z-index: 10;
+    outline: none;
+    border: none;
+    display: none;
+}
+
+.header-car {
+    position: absolute;
+    bottom: 0;
+    max-width: 843px;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promotion-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 986px;
+    margin-top: 150px;
+    margin-bottom: 118px;
+    padding: 0 16px;
+}
+
+.promotion {
+    font-size: 34px;
+    line-height: 120%;
+}
+
+.promotion-info {
+    display: grid;
+    grid-template-columns: minmax(0, 346px) minmax(0, 382px) minmax(0, 155px);
+    margin-top: 80px;
+    font-size: 18px;
+}
+
+.numeration {
+    position: absolute;
+    top: 1px;
+    left: -57px;
+    font-family: 'Avenir Next Cyr Heavy', sans-serif;
+    font-size: 129.273px;
+    color: #defdff;
+    line-height: 18px;
+    z-index: -1;
+}
+
+.connection-container, .greeting-container {
+    position: relative;
+}
+
+.connection {
+    max-width: 289px;
+}
+
+.greeting {
+    max-width: 325px;
+}
+
+.doc-icon {
+    width: 28px;
+}
+
+.full-info-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.full-info {
+    color: #cecece;
+    text-decoration: underline;
+    text-underline-offset: 4.5px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.full-info:hover {
+    color: #b9b9b9;
+    transition: color 0.3s ease-out;
+}
+
+.congrats-container {
+    display: grid;
+    grid-template-columns: minmax(0, 546px) minmax(0, 440px);
+    background-color: rgba(124, 253, 92, 0.1);
+    border-radius: 20px;
+    max-width: 1052px;
+    min-height: 448px;
+    padding: 0 16px;
+    width: 100%;
+    margin: 0 20px
+}
+
+.congrats-img {
+    align-self: center;
+    max-width: 410px;
+}
+
+.congrats-img img {
+    width: 100%;
+}
+
+.congrats p {
+    font-size: 40px;
+    line-height: 48px;
+    margin-top: 63px;
+    margin-bottom: 28px;
+    max-width: 424px;
+}
+
+.congrats-links {
+    display: flex;
+    gap: 30px;
+    height: 72px;
+    position: relative;
+}
+
+.congrats-links a {
+    width: 72px;
+    height: 72px;
+}
+
+.congrats-links a img {
+    width: 100%;
+}
+
+.logo-facebook,
+.logo-instagram,
+.logo-youtube {
+    transition: transform .3s linear;
+}
+
+.logo-facebook:hover,
+.logo-instagram:hover,
+.logo-youtube:hover {
+    transform: translateY(-3px);
+}
+
+.congrats-info {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 440px;
+}
+
+.congrats-info a:link,
+.congrats-info a:visited,
+.congrats-info a:hover,
+.congrats-info a:active {
+    color: #D8271C;
+    text-underline-offset: 5px;
+}
+
+.chance-container {
+    display: flex;
+    max-width: 1006px;
+    justify-content: space-between;
+    margin-top: 150px;
+    padding: 0 16px;
+}
+
+.chance-info, .chance-img {
+    flex: 0 0 440px;
+}
+
+.chance-header {
+    font-size: 34px;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+
+.main-info {
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 58px;
+}
+
+.additional-info {
+    font-size: 16px;
+    line-height: 120%;
+    margin-bottom: 18px
+}
+
+.promo-code {
+    border: #15394C dashed 3px;
+    border-radius: 9px;
+    max-width: 238px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 0.135em;
+    margin-bottom: 22px;
+    position: relative;
+    padding-right: 25px;
+}
+.copy{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+}
+
+.chance-img {
+    align-self: center;
+    max-width: 442px;
+}
+
+.chance-img img {
+    width: 100%;
+}
+
+.chance-links {
+    display: flex;
+    gap: 15px;
+}
+
+.chance-links a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+
+}
+
+.chance-links a img {
+    width: 100%;
+}
+
+.telegram-link,
+.viber-link,
+.gmail-link,
+.facebook-link {
+    transition: transform .3s linear;
+}
+
+.telegram-link:hover,
+.viber-link:hover,
+.gmail-link:hover,
+.facebook-link:hover {
+    transform: translateY(-3px);
+}
+
+.activation-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 978px;
+    margin-bottom: 150px;
+    padding: 0 16px;
+}
+
+.activation-header {
+    font-size: 34px;
+    line-height: 120%;
+    margin-top: 145px;
+    margin-bottom: 88px;
+    max-width: 664px;
+}
+
+.activation-columns .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.activation-img {
+    flex-basis: 50%;
+}
+
+.activation-img img {
+    width: 100%;
+}
+
+.bubble {
+    max-width: 361px;
+}
+
+.first-screen, .second-screen {
+    max-width: 383px;
+}
+
+.third-screen {
+    max-width: 319px;
+}
+
+.step {
+    position: relative;
+    font-size: 24px;
+    line-height: 120%;
+    flex: 0 1 403px;
+}
+
+.step .link {
+    font-size: 16px;
+    line-height: 120%;
+    font-family: 'Avenir Next Cyr', sans-serif;
+    font-weight: 400;
+    color: #2D3945;
+}
+
+.step .link:link,
+.step .link:visited,
+.step .link:focus,
+.step .link:active,
+.step .link:hover {
+    color: #2D3945;
+    text-underline-color: #2D3945;
+    text-underline-offset: 5px;
+}
+
+.step .numeration {
+    top: 40%;
+    left: -40px
+}
+
+.forth-row, .fifth-row {
+    align-self: flex-start;
+}
+
+.forth-row {
+    margin-top: 15%;
+}
+
+.fifth-row {
+    margin-top: 15%;
+    justify-self: center;
+}
+
+.prize-container {
+    flex-basis: 70%;
+    max-width: 623px;
+    height: 528px;
+
+}
+
+.prize-container .prize {
+    margin-left: -13%;
+    width: 113%;
+}
+
+.timer-section-container {
+    min-height: 655px;
+    width: 100%;
+    position: relative;
+    padding: 0 16px;
+}
+
+.timer-section {
+    width: 100%;
+    min-height: 569px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.timer-section-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 86px;
+    background-image: url("./images/Rectangle 1145.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    min-height: 569px;
+    z-index: -1;
+}
+
+.timer-section-header {
+    font-size: 60px;
+    line-height: 120%;
+    color: white;
+    margin-top: 71px;
+    margin-bottom: 36px;
+}
+
+.timer-header {
+    font-size: 24px;
+    line-height: 120%;
+    color: white;
+    margin-bottom: 19px;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.square {
+    width: 61px;
+    height: 59px;
+    border-radius: 3.65px;
+    background-color: #D8271C;
+    color: white;
+    font-size: 24.93px;
+    line-height: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 7px;
+    position: relative;
+
+}
+
+.time {
+    position: absolute;
+    font-size: 13.2px;
+    line-height: 15.84px;
+    color: white;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: -16px;
+    font-weight: 400;
+    font-family: 'Avenir Next Cyr', sans-serif;
+}
+
+.colon {
+    color: white;
+    font-size: 24.93px;
+    line-height: 120%;
+}
+
+.timer-section-pics {
+    width: 100%;
+    max-width: 1180px;
+    flex-grow: 1;
+    position: relative;
+    display: flex;
+}
+
+.pair,
+.timer-car-container {
+    position: absolute;
+}
+
+.pair {
+    bottom: 0;
+    left: 0;
+    max-width: 40%;
+}
+
+.timer-car-container {
+    bottom: -86px;
+    right: 0;
+}
+
+.timer-car {
+    position: relative;
+}
+
+.timer-car2 {
+    display: none;
+}
+
+.iphone-pic, .hyundai-pic {
+    position: absolute;
+}
+
+.iphone-pic {
+    bottom: 90px;
+    left: -40px;
+}
+
+.hyundai-pic {
+    top: 0;
+    left: 175px;
+}
+
+.footer-section {
+    margin-top: 88px;
+    max-height: 774px;
+    background-image: url("./images/snow.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    margin-bottom: 66px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-action {
+    margin-top: 7%;
+    margin-left: -8%
+}
+
+.footer-header {
+    font-size: 40px;
+    line-height: 120%;
+    align-self: start;
+}
+
+.footer-header p {
+    margin: 0;
+}
+
+.footer-car {
+    max-width: 857px;
+}
+
+.footer-car img {
+    width: 100%;
+}
+
+.footer-button {
+    margin-top: 43px;
+    font-size: 18px;
+    line-height: 120%;
+    font-weight: 500;
+    background-color: #D8271C;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    width: 243px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.footer-button:hover {
+    background-color: #ff2d1d;
+    transition: background-color 0.3s ease-out;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+
+}
+
+@media (max-width: 1089px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        align-items: stretch;
+    }
+
+    .footer-action {
+        order: 1;
+        margin-left: 0;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .footer-button {
+        min-width: 304px;
+    }
+
+    .footer-car {
+        width: 100%;
+        height: 113vw;
+        min-height: 364px;
+        max-height: 595px;
+        min-width: 374px;
+        order: 2;
+        align-self: flex-start;
+        position: relative;
+    }
+
+    .footer-car img {
+        width: initial;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+}
+
+@media (max-width: 860px) {
+    .promotion-info {
+        grid-template-columns: 1fr;
+        grid-gap: 70px;
+    }
+
+    .promotion {
+        text-align: center;
+    }
+
+    .congrats-container {
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .congrats-img {
+        justify-self: center;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        margin-top: 40px;
+        margin-bottom: -80px;
+    }
+
+    .congrats {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .congrats p {
+        text-align: center;
+    }
+
+    .congrats-info {
+        text-align: center;
+    }
+
+    .chance-container {
+        flex-direction: column;
+    }
+
+    .chance-img {
+        order: 1;
+    }
+
+    .chance-info {
+        order: 2;
+        max-width: 440px;
+        text-align: center;
+    }
+
+    .chance-links {
+        justify-content: center;
+    }
+
+    .promo-code {
+        margin: 18px auto 0 auto;
+    }
+
+    .activation-header {
+        text-align: center;
+    }
+
+    .activation-columns .row {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .step {
+        flex-basis: 0;
+        max-width: 403px;
+        margin-left: 50px;
+    }
+
+    .activation-columns .row:nth-child(even) .step {
+        order: 1;
+    }
+
+    .activation-columns .row:nth-child(even) .activation-img {
+        order: 2;
+    }
+
+    .forth-row, .fifth-row {
+        align-self: center;
+        margin-top: 0;
+    }
+
+    .timer-section-header {
+        text-align: center;
+    }
+
+    .timer-section-pics {
+        justify-content: center;
+    }
+
+    .prize-container .prize {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .timer-car-container, .pair {
+        display: none
+    }
+
+    .timer-car2 {
+        display: block;
+        flex-basis: 500px;
+        justify-self: center;
+        margin-bottom: -10px;
+    }
+
+    .timer-car2 img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 570px) {
+    .hyundai-container {
+        top: 415px;
+    }
+
+    .iphone .text, .hyundai .text {
+        inline-size: 350px;
+    }
+
+    .iphone, .hyundai {
+        text-align: center;
+    }
+
+    .iphone .rectangle {
+        left: 0;
+        top: -8px;
+        width: 353px;
+    }
+
+    .hyundai .rectangle {
+        left: 0;
+        top: -8px;
+        width: 353px;
+    }
+}
+
+@media (max-width: 501px) {
+    .header-section {
+        height: 604px;
+    }
+
+    .header-background {
+        bottom: calc(604px - 540px);
+    }
+
+    .logo-container {
+        top: 60px;
+    }
+
+    .logo {
+        width: 159px;
+    }
+
+    .arrow {
+        height: 61px;
+        top: 11px;
+        right: -31px;
+        transform: none;
+    }
+
+    .iphone-container {
+        top: 152px;
+    }
+
+    .hyundai-container {
+        top: 227px;
+        transform: rotate(4.46deg);
+
+    }
+
+    .iphone, .hyundai {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .iphone .text, .hyundai .text {
+        inline-size: 203px;
+    }
+
+    .rectangle {
+        height: 33px;
+    }
+
+    .iphone .rectangle {
+        left: 0;
+        top: -6px;
+        width: 202px;
+    }
+
+    .header-button {
+        display: block;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .header-car {
+        max-width: 340px;
+    }
+
+    .hyundai .rectangle {
+        left: 15px;
+        width: 176px;
+        top: -2px;
+    }
+
+    .header-text .get {
+        font-size: 30px;
+        line-height: 36px;
+        top: 106px;
+        min-height: initial;
+    }
+
+    .header-text .connect {
+        font-size: 18px;
+        line-height: 21px;
+        top: 29px
+    }
+
+    .header-text .currency {
+        font-size: 14px;
+    }
+
+    .promotion-container {
+        margin-bottom: 65px;
+    }
+
+    .promotion {
+        font-size: 24px;
+        line-height: 29px;
+        inline-size: 206px;
+    }
+
+    .promotion-info {
+        grid-gap: 55px;
+    }
+
+    .connection-container .connection,
+    .greeting-container .greeting {
+        inline-size: 235px;
+        font-size: 16px;
+        line-height: 19.2px;
+    }
+
+    .greeting-container .greeting {
+        inline-size: 258px;
+    }
+
+    .numeration {
+        font-size: 100px;
+        line-height: 90px;
+    }
+
+    .connection-container .numeration,
+    .greeting-container .numeration {
+        top: -27px;
+        left: -37px;
+    }
+
+    .full-info-container {
+        margin-top: -15px;
+    }
+
+    .full-info-container .full-info {
+        font-size: 16px;
+        line-height: 19.2px;
+    }
+
+    .full-info-container .doc-icon {
+        width: 22px;
+    }
+
+    .congrats p {
+        font-size: 24px;
+        line-height: 28.8px;
+        inline-size: 270px;
+        margin-top: 38px;
+        margin-bottom: 30px;
+    }
+
+    .congrats-links {
+        gap: 30px;
+        height: 48px;
+    }
+
+    .congrats-links a {
+        width: 48px;
+        height: 48px;
+    }
+
+    .congrats-info {
+        margin-top: 15px;
+        margin-bottom: 6px;
+        font-size: 16px;
+        line-height: 19.2px;
+        inline-size: 270px;
+    }
+
+    .congrats-img {
+        margin-bottom: -60px;
+    }
+
+    .chance-container {
+        margin-top: 130px;
+        padding: 0 30px;
+    }
+
+    .chance-img {
+        flex-basis: 0;
+    }
+
+    .chance-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-basis: 0;
+    }
+
+    .chance-header {
+        font-size: 24px;
+        line-height: 28.8px;
+        inline-size: 268px;
+        margin-top: 42px;
+        margin-bottom: 20px;
+    }
+
+    .main-info {
+        font-size: 16px;
+        line-height: 19.2px;
+        inline-size: 259px;
+        margin-bottom: 40px;
+    }
+
+    .additional-info {
+        font-size: 14px;
+        line-height: 16.8px;
+        inline-size: 252px;
+    }
+
+    .promo-code {
+        font-size: 18px;
+        line-height: 45px;
+        max-width: 300px;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 21px;
+        padding-right: 10px;
+    }
+    .copy{
+        right: 24px;
+    }
+
+    .activation-section {
+        margin-bottom: 50px;
+    }
+
+    .activation-header {
+        font-size: 24px;
+        line-height: 28.8px;
+        inline-size: 304px;
+        margin-top: 70px;
+        margin-bottom: 73px;
+    }
+
+    .activation-columns {
+        display: flex;
+        gap: 60px;
+        flex-direction: column;
+    }
+
+    .activation-columns .row {
+        gap: 30px;
+        margin: 0;
+    }
+
+    .step {
+        font-size: 16px;
+        line-height: 19.2px;
+        font-weight: 600;
+    }
+
+    .step .numeration {
+        top: -50%;
+        left: -45px;
+    }
+
+    .timer-section-container {
+        min-height: 623px;
+    }
+    .timer-section-background {
+        bottom: 59px;
+        min-height: 564px;
+    }
+    .timer-section-header {
+        margin-top: 38px;
+        font-size: 24px;
+        line-height: 26.04px;
+        margin-bottom: 41px;
+        inline-size: 211px;
+    }
+
+    .timer-header {
+        font-size: 18px;
+        line-height: 21.6px;
+        inline-size: 321px;
+        margin-bottom: 23px;
+        text-align: center;
+    }
+
+    .timer {
+        margin-bottom: 36px;
+    }
+    .timer-car2 {
+        margin: 0 -16px;
+    }
+    .footer-section{
+        margin-top: 71px;
+        margin-bottom: 25px;
+    }
+    .footer-header{
+        font-size: 24px;
+        line-height: 28.8px;
+        inline-size: 301px;
+    }
+    .footer-button{
+        margin-top: 40px;
+    }
+    .footer-car {
+        min-width: 0;
+        height: 100%;
+    }
+    .copyright{
+        font-size: 18px;
+        line-height: 21.6px;
+    }
+
+}
