@@ -1,5 +1,5 @@
 AOS.init();
-const targetDate = Date.parse("2022-11-08T12:00:00");
+const targetDate = Date.parse("2032-11-08T12:00:00");
 
 const copyClipboard = () => {
     const promocode = document.getElementById("promo-code");
