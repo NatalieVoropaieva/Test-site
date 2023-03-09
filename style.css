@@ -580,7 +580,8 @@ section {
 }
 
 .square {
-    width: 61px;
+    width: fit-content;
+    padding: 12px;
     height: 59px;
     border-radius: 3.65px;
     background-color: #D8271C;
